@@ -1,0 +1,19 @@
+Github Link: https://github.com/lshakeel/WE_Assignment3
+
+We had create a php interpretor which also had different users. 
+I created the database using migrations and filled it using seedings.
+Then the views were created using .blade.php files.
+Every thing is being done in the controllers, no services were used.
+
+how to use the application:
+create a database named assign
+perform migration and seeding
+type localhost/laravel/public/assign.php click on login
+there are 3 users:
+	username		password
+	user1@assign.com	pass1
+	user2@assign.com	pass2
+	user3@assign.com	pass3
+
+user1 and user2 are coders while user3 is the viewer/moderator. you can create more users by clicking on register.
+After you have logged in, you can either view your previous code or create code which will run when you submit it.
